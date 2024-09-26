@@ -3,12 +3,12 @@
 
 // Prompt the user for a list of integers separated by commas.
 const userInputString = prompt(
-  "Please enter some integers separated by commas.",
-  "1,2,3,4,5"
+  'Please enter some integers separated by commas.',
+  '1,2,3,4,5'
 );
 
 // Split the string of numbers into an array of strings.
-const stringArray = userInputString.split(",");
+const stringArray = userInputString.split(',');
 
 // Convert the array of strings into an array of numbers.
 const numbers = [];
@@ -95,3 +95,5 @@ function getEvens(numbers) {
 function getOdds(numbers) {
   // TODO
 }
+
+console.log('This is the line I am adding');
